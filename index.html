@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Portifólio</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <!-- Links para as informações -->
+        <div class="dashboard">
+          <div class="user">
+            <img
+              src="https://avatars.githubusercontent.com/u/68079117?v=4"
+              alt="My Photo"
+            />
+            <h2>Vinicius Padovam Valentim</h2>
+            <p>18 anos</p>
+          </div>
+          <div class="links">
+            <div class="link">
+              <p id="academicFormationLink">
+                <i class="fas fa-graduation-cap"></i>
+                Formação Acadêmica
+              </p>
+            </div>
+            <div class="link">
+              <p id="techLink">
+                <i class="fas fa-microchip"></i>
+                Tecnologias
+              </p>
+            </div>
+            <div class="link">
+              <p id="languagesLink">
+                <i class="fas fa-language"></i>
+                Idiomas
+              </p>
+            </div>
+            <div class="link">
+              <a href="#">
+                <!--projects.html-->
+                <p>
+                  <i class="fas fa-project-diagram"></i>
+                  Projetos
+                </p>
+              </a>
+            </div>
+            <div class="link">
+              <p id="contactLink">
+                <i class="fas fa-phone-square"></i>
+                Contatos
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Links para as informações -->
+
+        <!-- Informações sobre mim -->
+        <div class="main-content">
+          <div class="cards">
+            <div class="card" id="academicFormation">
+              <h2 class="title">Formação Acadêmica</h2>
+              <p>
+                Ensino Médio Técnico - Informática:
+                <span>Completo.</span>
+              </p>
+              <p>
+                Faculdade - Ciências da Computação:
+                <span>Cursando(3º Semestre).</span>
+              </p>
+            </div>
+
+            <div class="card disable" id="tech">
+              <h2 class="title">Tecnologias</h2>
+              <p>Tenho cohecimento nas seguintes tecnologias:</p>
+              <ul>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>Python</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+              </ul>
+            </div>
+
+            <div class="card disable" id="languages">
+              <h2 class="title">Idiomas</h2>
+              <p>Tenho conhecimento intermediário/avançado em inglês.</p>
+              <p>Espanhol básico do básico.</p>
+            </div>
+
+            <!--div class="card disable">
+              <h2 class="title">Projetos</h2>
+              <h3>Vai ser outra página</h3>
+            </div>
+          </div-->
+          <!-- Informações sobre mim -->
+
+          <!-- Modal -->
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+
+              <h2 class="title">Contatos</h2>
+              <p>Links para contato e mais informações abaixo:</p>
+              <ul>
+                <li>padovam3373@gmail.com</li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/viniciuspadovam57a3b/"
+                    target="_blank"
+                  >
+                    LinkedIn
+                  </a>
+                </li>
+                <li><a href="https://github.com/viniciuspadovam">GitHub</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Modal -->
+        </div>
+      </div>
+    </main>
+
+    <script src="./scripts/scripts.js"></script>
+    <script
+      src="https://kit.fontawesome.com/f70c99edd6.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

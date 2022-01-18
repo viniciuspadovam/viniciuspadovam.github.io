@@ -1,167 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="./styles/styles.css" />
-    <link rel="stylesheet" href="./styles/tech-styles.css">
-    <link rel="stylesheet" href="./styles/tooltip-style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
-      rel="stylesheet"
-    />
+        <link rel="stylesheet" href="./styles/styles.css" />
+        <link rel="stylesheet" href="./styles/tech-styles.css" />
+        <link rel="stylesheet" href="./styles/tooltip-style.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+            rel="stylesheet"
+        />
 
-    <title>Portfólio</title>
-  </head>
-  <body>
-    <main>
-      <div class="container">
-        <!-- Links para as informações -->
-        <div class="dashboard">
-          <div class="user">
-            <img
-              src="https://avatars.githubusercontent.com/u/68079117?v=4"
-              alt="My Photo"
-            />
-            <h2>Vinicius Padovam Valentim</h2>
-            <p>19 anos</p>
-          </div>
-          <div class="links">
-            <div class="link">
-              <p id="academicFormationLink">
-                <i class="fas fa-graduation-cap"></i>
-                Formação Acadêmica
-              </p>
-            </div>
-            <div class="link">
-              <p id="techLink">
-                <i class="fas fa-microchip"></i>
-                Tecnologias
-              </p>
-            </div>
-            <div class="link">
-              <p id="languagesLink">
-                <i class="fas fa-language"></i>
-                Idiomas
-              </p>
-            </div>
-            <div class="link">
-              <a href="https://github.com/viniciuspadovam" target="_blank">
-                  <div class="tooltip">
-                    <p>
-                    <i class="fas fa-project-diagram"></i>
-                    Projetos</p>
-                    <span class="tooltiptext">GitHub</span>
-                  </div>
-                  
-                
-              </a>
-            </div>
-            <div class="link">
-              <p id="contactLink">
-                <i class="fas fa-phone-square"></i>
-                Contatos
-              </p>
-            </div>
-          </div>
-        </div>
+        <title>Portfólio</title>
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <!-- Links para as informações -->
+                <div class="dashboard">
+                    <div class="user">
+                        <img
+                            src="https://avatars.githubusercontent.com/u/68079117?v=4"
+                            alt="My Photo"
+                        />
+                        <h2>Vinicius Padovam Valentim</h2>
+                        <p>19 anos</p>
+                    </div>
+                    <div class="links">
+                        <div class="link">
+                            <p id="academicFormationLink">
+                                <i class="fas fa-graduation-cap"></i>
+                                Formação Acadêmica
+                            </p>
+                        </div>
+                        <div class="link">
+                            <p id="techLink">
+                                <i class="fas fa-microchip"></i>
+                                Tecnologias
+                            </p>
+                        </div>
+                        <div class="link">
+                            <p id="languagesLink">
+                                <i class="fas fa-language"></i>
+                                Idiomas
+                            </p>
+                        </div>
+                        <div class="link">
+                            <a
+                                href="https://github.com/viniciuspadovam"
+                                target="_blank"
+                            >
+                                <div class="tooltip">
+                                    <p>
+                                        <i class="fas fa-project-diagram"></i>
+                                        Projetos
+                                    </p>
+                                    <span class="tooltiptext">GitHub</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="link">
+                            <p id="contactLink">
+                                <i class="fas fa-phone-square"></i>
+                                Contatos
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-        <!-- Informações sobre mim -->
-        <div class="main-content">
-          <div class="cards">
-            <div class="card" id="academicFormation">
-              <h2 class="title">Formação Acadêmica</h2>
-              <p>
-                Ensino Médio Técnico - Informática:
-                <span>Completo.</span>
-              </p>
-              <p>
-                Faculdade - Ciências da Computação:
-                <span>Cursando(5º Semestre).</span>
-              </p>
-            </div>
+                <!-- Informações sobre mim -->
+                <div class="main-content">
+                    <div class="cards">
+                        <div class="card" id="academicFormation">
+                            <h2 class="title">Formação Acadêmica</h2>
+                            <p>
+                                Ensino Médio Técnico - Informática:
+                                <span>Completo.</span>
+                            </p>
+                            <p>
+                                Faculdade - Ciências da Computação:
+                                <span>Cursando(5º Semestre).</span>
+                            </p>
+                        </div>
 
-            <div class="card disable" id="tech">
-              <h2 class="title">Tecnologias</h2>
-              <p>Tenho cohecimento nas seguintes tecnologias:</p>
-              <ul id="techs">
-                <li>
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /> 
-                  <br />javascript
-                </li>
-                <li>
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
-                  <br />PHP
-                </li>
-                <li>
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
-                  <br />Python
-                </li>
-                <li>
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-                  <br />HTML5
-                </li>
-                <li>
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-                  <br />CSS3
-                </li>
-                <li>
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-                  <br />NodeJS
-                </li>
-                <li>
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-                  <br />ReactJS
-                </li>
-                <li>
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
-                  <br />TypeScript
-                </li>
-              </ul>
-            </div>
-            
-            <div class="card disable mb-2" id="projetos">
-              <h2 class="title">Projetos</h2>
-              <p>Veja os repositórios dos meus projetos no <a href="https://github.com/viniciuspadovam" target="_blank">GitHub</a></p>
-            </div>
+                        <div class="card disable" id="tech">
+                            <h2 class="title">Tecnologias</h2>
+                            <p>Tenho cohecimento nas seguintes tecnologias:</p>
+                            <ul id="techs">
+                                <li>
+                                    <img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                                    />
+                                    <br />
+                                    javascript
+                                </li>
+                                <li>
+                                    <img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+                                    />
+                                    <br />
+                                    PHP
+                                </li>
+                                <li>
+                                    <img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                                    />
+                                    <br />
+                                    Python
+                                </li>
+                                <li>
+                                    <img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                                    />
+                                    <br />
+                                    HTML5
+                                </li>
+                                <li>
+                                    <img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                                    />
+                                    <br />
+                                    CSS3
+                                </li>
+                                <li>
+                                    <img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                                    />
+                                    <br />
+                                    NodeJS
+                                </li>
+                                <li>
+                                    <img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                                    />
+                                    <br />
+                                    ReactJS
+                                </li>
+                                <li>
+                                    <img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                                    />
+                                    <br />
+                                    TypeScript
+                                </li>
+                            </ul>
+                        </div>
 
-            <div class="card disable" id="languages">
-              <h2 class="title">Idiomas</h2>
-              <p>Tenho conhecimento intermediário/avançado em inglês.</p>
-              <p>Espanhol básico do básico.</p>
+                        <div class="card disable mb-2" id="projetos">
+                            <h2 class="title">Projetos</h2>
+                            <p>
+                                Veja os repositórios dos meus projetos no
+                                <a
+                                    href="https://github.com/viniciuspadovam"
+                                    target="_blank"
+                                >
+                                    GitHub
+                                </a>
+                            </p>
+                        </div>
+
+                        <div class="card disable" id="languages">
+                            <h2 class="title">Idiomas</h2>
+                            <p>
+                                Tenho conhecimento intermediário/avançado em
+                                inglês.
+                            </p>
+                            <p>Espanhol básico do básico.</p>
+                        </div>
+
+                        <!-- Modal -->
+                        <div id="myModal" class="modal">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+
+                                <h2 class="title">Contatos</h2>
+                                <p>
+                                    Links para contato e mais informações
+                                    abaixo:
+                                </p>
+                                <ul>
+                                    <li>
+                                        <a
+                                            href="mailto:viniciuspadovam.contato@gmail.com"
+                                            id="txt-dec-off"
+                                        >
+                                            viniciuspadovam.contato@gmail.com
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://www.linkedin.com/in/viniciuspadovam57a3b/"
+                                            target="_blank"
+                                        >
+                                            LinkedIn
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </main>
 
-          <!-- Modal -->
-          <div id="myModal" class="modal">
-            <div class="modal-content">
-              <span class="close">&times;</span>
-
-              <h2 class="title">Contatos</h2>
-              <p>Links para contato e mais informações abaixo:</p>
-              <ul>
-                <li><a href="mailto:viniciuspadovam.contato@gmail.com" id="txt-dec-off">viniciuspadovam.contato@gmail.com</a></li>
-                <li>
-                  <a
-                    href="https://www.linkedin.com/in/viniciuspadovam57a3b/"
-                    target="_blank"
-                    >
-                    LinkedIn
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-
-    <script src="./scripts/scripts.js"></script>
-    <script
-      src="https://kit.fontawesome.com/f70c99edd6.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+        <script src="./scripts/scripts.js"></script>
+        <script
+            src="https://kit.fontawesome.com/f70c99edd6.js"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>

@@ -107,8 +107,31 @@ ul {
 .cards a {
     color: #adbac7;
 }
+div.card#tech p {
+    margin-bottom: 1.5rem;
+}
+div.card#tech ul#techs {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+div.card#tech ul#techs li {
+    text-align: center;
+    font-size: 0.65rem;
+}
+div.card#tech ul#techs li + li {
+    margin-left: 1.6rem;
+}
+div.card#tech ul#techs img {
+    height: 3rem;
+}
+
 .mb-2 {
     margin-bottom: 2rem;
+}
+.title {
+    color: #5a7292;
 }
 .disable {
     display: none;
@@ -164,6 +187,10 @@ ul {
 }
 
 @media (max-width: 720px) {
+    main {
+        flex-wrap: wrap;
+        justify-content: start;
+    }
     .links {
         display: none;
     }
@@ -180,6 +207,7 @@ ul {
         border-radius: 0;
         display: block;
         width: 100%;
+        padding-bottom: 0;
     }
     .dashboard h2 + p {
         border: 0;
@@ -188,9 +216,17 @@ ul {
         border-radius: 0;
     }
     .card {
-        margin-bottom: 2.3rem;
+        margin-bottom: 1.8rem;
+    }
+    div.card#tech ul#techs {
+        justify-content: center;
+        flex-wrap: wrap;
     }
     .card#languages {
         margin-bottom: 0.6rem;
+    }
+
+    .title {
+        text-align: center;
     }
 }
